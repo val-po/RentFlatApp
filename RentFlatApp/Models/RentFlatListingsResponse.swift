@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct RentFlatListingsResponse: Codable {
+    
+    let total_count: Int
+    let results: [RentFlatListings]
+}
